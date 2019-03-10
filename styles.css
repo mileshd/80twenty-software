@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Cinzel');
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.project {
+  padding: 5px;
+}
+.project__title {
+  font-size: 1.2rem;
+}
+.project__description {
+}
