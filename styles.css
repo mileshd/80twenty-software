@@ -21,6 +21,7 @@ body {
   padding: 25px;
   margin-bottom: 25px;
   border-radius: 5px;
+  display: block;
 }
 .project:hover {
   cursor: pointer;
@@ -28,12 +29,22 @@ body {
 .project .teaser {
   font-size: 14px;
 }
+
 .project.yo-self {
   background: #bfe8eb;
+
 }
+.project.yo-self:hover {
+  background: #d5f5f7;
+}
+
 .project.yo-meals {
   background: #d3ebbf;
 }
+.project.yo-meals:hover {
+  background: #e1f1d3;
+}
+
 .project.yo-household {
   background: #f7c87a;
 }
