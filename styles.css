@@ -4,11 +4,15 @@ body {
   font-family: 'Lora', serif;
 }
 
-.home__about {
+.home__title {
   margin-top: 25px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.home__content {
+  font-size: 22px;
   margin-bottom: 25px;
 }
-
 
 .home__projects a {
   color: black;
