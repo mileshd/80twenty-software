@@ -26,6 +26,19 @@ body {
   margin-bottom: 25px;
   border-radius: 5px;
   display: block;
+  height: 300px;
+}
+.project__title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.project__description {
+  font-size: 18px;
+  line-height: 1.75;
+}
+.project__footer {
+  font-size: 18px;
+  margin-top: 15px;
 }
 .project:hover {
   cursor: pointer;
