@@ -13,6 +13,9 @@ body {
   font-size: 22px;
   margin-bottom: 25px;
 }
+.home__content__pitch {
+  line-height: 1.75;
+}
 
 .home__projects a {
   color: black;
@@ -79,4 +82,17 @@ body {
   font-size: 20px;
 }
 .project__description {
+}
+
+
+@media (max-width: 1199px) {
+  .project {
+    height: 375px;
+  }
+}
+
+@media (max-width: 992px) {
+  .project {
+    height: auto;
+  }
 }
