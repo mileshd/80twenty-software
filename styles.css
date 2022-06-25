@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Lora', serif;
+  background: #fafafa;
 }
 
 .home__title {
@@ -12,9 +13,11 @@ body {
 .home__content {
   font-size: 22px;
   margin-bottom: 25px;
+  margin-top: 20px;
 }
 .home__content__pitch {
   line-height: 1.75;
+  margin-bottom: 50px;
 }
 
 .home__projects a {
@@ -24,16 +27,22 @@ body {
   text-decoration: none;
 }
 
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 .project {
   padding: 25px;
   margin-bottom: 25px;
   border-radius: 5px;
   display: block;
-  height: 300px;
+  /*height: 300px;*/
 }
 .project__title {
-  font-size: 32px;
+  font-size: 28px;
+  color: #333;
   margin-bottom: 10px;
+  font-style: italic;
 }
 .project__description {
   font-size: 18px;
@@ -78,24 +87,19 @@ body {
   background: #efea8e;
 }
 
-.project__title {
-  font-size: 20px;
-}
-.project__description {
-}
-
 .page-footer {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 1199px) {
   .project {
-    height: 375px;
+    /*height: 375px;*/
   }
 }
 
 @media (max-width: 992px) {
   .project {
-    height: auto;
+    /*height: auto;*/
   }
 }
