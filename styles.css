@@ -8,16 +8,17 @@ body {
 .home__title {
   margin-top: 25px;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .home__content {
   font-size: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   margin-top: 20px;
+  text-align: center;
 }
 .home__content__pitch {
-  line-height: 1.75;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .home__projects a {
@@ -69,6 +70,8 @@ h2 {
 
 .project.yo-meals {
   background: #d3ebbf;
+  text-align: center;
+  border-radius: 70px;
 }
 .project.yo-meals:hover {
   background: #e1f1d3;
@@ -88,8 +91,9 @@ h2 {
 }
 
 .page-footer {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
