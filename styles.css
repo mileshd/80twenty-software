@@ -1,17 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Cinzel');
 
+@keyframes color {
+  0%   { background: #e2fdfd; }
+  20%  { background: #e8fde2; }
+  40%  { background: #fdf4e2; }
+  60%  { background: #e2e3fd; }
+  80%  { background: #e2e3fd; }
+  100% { background: #e2fdfd; }
+}
+
 body {
   font-family: 'Lora', serif;
+  background: #e2fdfd; /* Fallback */
+  animation: color 30s infinite linear;
+  text-align: center;
+  padding: 2em;
 }
+
+/*body {*/
+  /*font-family: 'Lora', serif;*/
+/*}*/
 
 .home__title {
   margin-top: 25px;
   font-size: 32px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .home__content {
   font-size: 22px;
   margin-bottom: 25px;
+  text-align: center;
 }
 .home__content__pitch {
   line-height: 1.75;
@@ -26,22 +45,26 @@ body {
 
 .project {
   padding: 25px;
+  margin: 0 auto;
   margin-bottom: 25px;
   border-radius: 5px;
   display: block;
-  height: 300px;
+  height: 250px;
+  max-width: 500px;
 }
 .project__title {
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .project__description {
   font-size: 18px;
-  line-height: 1.75;
+  line-height: 2;
+  text-align: center;
 }
 .project__footer {
   font-size: 18px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .project:hover {
   cursor: pointer;
@@ -68,6 +91,9 @@ body {
 .project.yo-household {
   background: #f7c87a;
 }
+.project.yo-relationships:hover {
+  background: #e5d7f1;
+}
 .project.yo-relationships {
   background: #ccb0e3;
 }
@@ -78,19 +104,18 @@ body {
   background: #efea8e;
 }
 
-.project__title {
-  font-size: 20px;
-}
 .project__description {
 }
 
 .page-footer {
+  margin-top: 40px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
   .project {
-    height: 375px;
+    height: 300px;
   }
 }
 
